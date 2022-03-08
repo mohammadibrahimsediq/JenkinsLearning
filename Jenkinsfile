@@ -23,7 +23,7 @@ pipeline {
     stage('deploy') {
       steps {
           echo 'We are builing files here'
-        echo 'depoying version ${params.VERSION}"
+          echo "depoying version ${params.VERSION}"
         }
     }
   }
